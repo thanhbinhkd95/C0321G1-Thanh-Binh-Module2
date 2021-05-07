@@ -1,4 +1,4 @@
-package Bai4_Class_OOP_Java.Bai_Tap;
+package bai4_class_oop_java.Bai_Tap;
 
 public class Fan {
     final int SLOW = 1;
