@@ -2,7 +2,7 @@ package bai6_inheritance.bai_tap.point2d3d;
 import java.util.Arrays;
 public class Point3D extends Point2D {
     public float z = 0.0f;
-    public float[] xyz = new float[3];
+ /*   public float[] xyz = new float[3];*/
     public Point3D(){
 
     }
@@ -21,13 +21,13 @@ public class Point3D extends Point2D {
     }
 
     public float[] getXyz() {
-        xyz = new float[]{this.x, this.y, this.z};
-        return xyz;
+     return new float[]{this.x, this.y, this.z};
+
     }
 
-    public void setXyz(float[] xyz) {
+  /*  public void setXyz(float[] xyz) {
         this.xyz = new float[]{x, y, z};
-    }
+    }*/
 
 
     @Override
@@ -36,7 +36,7 @@ public class Point3D extends Point2D {
                 " x=" + x +
                 ", y=" + y +
                 ", z=" + z +
-                ", xyz=" + Arrays.toString(xyz) +
+                ", xyz=" + Arrays.toString(getXyz()) +
                 '}';
     }
 

@@ -29,6 +29,7 @@ public class Shape {
         Shape shape = new Shape();
         System.out.println(shape);
         Shape shape1 = new Shape("yellow");
-        System.out.println(shape1);     
+        System.out.println(shape1);
     }
+
 }

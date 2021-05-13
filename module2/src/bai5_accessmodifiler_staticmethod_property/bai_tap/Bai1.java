@@ -1,6 +1,6 @@
 package bai5_accessmodifiler_staticmethod_property.bai_tap;
 
-public class bai_1 {
+public class Bai1 {
     public class Circle {
         private double radius = 1;
         private String color = "red";

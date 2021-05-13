@@ -4,7 +4,7 @@ import java.util.Arrays;
 public class Point2D {
     public float x = 1.0f;
     public float y = 1.0f;
-    public float[] xy = {x, y};
+/*    public float[] xy = {x, y};*/
     public Point2D(float x, float y) {
         this.x = x;
         this.y = y;
@@ -33,21 +33,20 @@ public class Point2D {
 //        xy= new float[]{this.x, this.y};
 //        xy[0] = this.x;
 //        xy[1] = this.y;
-        xy= new float[]{this.x, this.y};
-        return xy;
+        return new float[]{this.x, this.y};
     }
 
-    public void setXy(float[] xy) {
+    /*public void setXy(float[] xy) {
 
         this.xy = xy;
     }
-
+*/
     @Override
     public String toString() {
         return "Point2D{" +
                 "x=" + x +
                 ", y=" + y +
-                ", xy=" + Arrays.toString(xy) +
+                ", xy=" + Arrays.toString(getXy()) +
                 '}';
     }
 
