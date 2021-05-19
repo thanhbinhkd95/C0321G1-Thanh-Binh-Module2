@@ -4,12 +4,12 @@ import java.util.Arrays;
 public class MyArrayList<E> {
 
     /**
-     * Số lượng phần tử trong MyArrayList
+     * Size of MyArrayList
      */
     private int size = 0;
 
     /**
-     * Sức chứa mặc định trong MyArraylist
+     * Default size MyArraylist
      */
     private static final int DEFAULT_CAPACITY = 10;
 
@@ -24,7 +24,7 @@ public class MyArrayList<E> {
      * mặc định khi khởi tạo sẽ tạo ra mảng object có kích thước là DEFAULT_CAPACITY
      */
     public MyArrayList() {
-        System.out.println("Khởi tạo thành công MyArrayList có kích thước là: " + DEFAULT_CAPACITY);
+        System.out.println("Khởi tạo MyArrayList có size là: " + DEFAULT_CAPACITY);
         elements = new Object[DEFAULT_CAPACITY];
     }
 
@@ -59,7 +59,7 @@ public class MyArrayList<E> {
     }
 
 
-    /**
+   /* *//**
      * Thêm phần tử vào vị trí index
      * @param e
      * @param index

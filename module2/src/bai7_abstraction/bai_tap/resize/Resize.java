@@ -5,11 +5,11 @@ public interface Resize {
 
     void resize(double percent);
 
-    public class Shape {
+    /*public class Shape {
         public Shape(double size, String color, boolean filled) {
         }
 
         public Shape(int i, int i1, String black, boolean b) {
         }
-    }
+    }*/
 }

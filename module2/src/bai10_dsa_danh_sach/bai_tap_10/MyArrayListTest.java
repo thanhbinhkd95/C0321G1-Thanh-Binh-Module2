@@ -28,10 +28,10 @@ public class MyArrayListTest {
     public static void main(String[] args) {
         MyArrayList<Person> myArrayList = new MyArrayList<>(3);
         myArrayList.ensureCapacity(4);
-        myArrayList.add(new Person("Nguyễn Văn A ", 30));
-        myArrayList.add(new Person("Nguyễn Văn B ", 30));
-        myArrayList.add(new Person("Nguyễn Văn C ", 30));
-        myArrayList.add(new Person("Nguyễn Văn D ", 30),1);
+        myArrayList.add(new Person("Zidanene Zidane ", 42));
+        myArrayList.add(new Person("Lionel Messi ", 33));
+        myArrayList.add(new Person("Cristiano Ronaldo ", 36));
+        myArrayList.add(new Person("Ronaldo beo ", 43),1);
         MyArrayList<Person> list2 = myArrayList.clone();
         int index = list2.indexOf(new Person("Nguyễn Văn C ", 30));
         System.out.println("index = " + index);
