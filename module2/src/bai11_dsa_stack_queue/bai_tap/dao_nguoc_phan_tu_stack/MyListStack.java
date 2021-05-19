@@ -16,7 +16,7 @@ public class MyListStack {
         }
         System.out.println("Trước khi đảo mảng: "+ Arrays.toString(array));
         System.out.println("Sau khi đảo mảng: "+ Arrays.toString(MyListStack.reverseArray(array)));
-        String string = "Mr Chanh Tivi";
+        String string = "Mr Chanh Tran Van";
         System.out.println("Sau khi đảo: "+ MyListStack.reverseString(string));
     }
     public static int[] reverseArray(int[] array) {
