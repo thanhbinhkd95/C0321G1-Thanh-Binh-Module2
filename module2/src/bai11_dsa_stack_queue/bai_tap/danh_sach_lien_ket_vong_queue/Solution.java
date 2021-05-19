@@ -1,9 +1,8 @@
-package bai11_dsa_stack_queue.bai_tap_11.danh_sach_lien_ket_vong_queue;
+package bai11_dsa_stack_queue.bai_tap.danh_sach_lien_ket_vong_queue;
 
 
 // Java program for insertion and
 // deletion in Circular Queue
-import java.util.* ;
 
 class Solution
 {
@@ -103,5 +102,3 @@ class Solution
 
     }
 }
-// This code is contributed
-// by Arnab Kundu

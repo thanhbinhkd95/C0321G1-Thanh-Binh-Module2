@@ -1,14 +1,14 @@
-package bai11_dsa_stack_queue.bai_tap_11.demerging_queue;
+package bai11_dsa_stack_queue.bai_tap.demerging_queue;
 
 import java.time.LocalDate;
 
 
-public class NhanVien implements Comparable<NhanVien> {
+public class SapXepNhanVien implements Comparable<SapXepNhanVien> {
     public String name;
     public boolean gender;
     public LocalDate birthday;
 
-    public NhanVien(String name, boolean gender, LocalDate birthday) {
+    public SapXepNhanVien(String name, boolean gender, LocalDate birthday) {
         this.name = name;
         this.gender = gender;
         this.birthday = birthday;
@@ -45,7 +45,7 @@ public class NhanVien implements Comparable<NhanVien> {
                 '}';
     }
     @Override
-    public int compareTo(NhanVien o) {
+    public int compareTo(SapXepNhanVien o) {
         return this.birthday.compareTo(o.birthday);
     }
 }

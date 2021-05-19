@@ -1,4 +1,4 @@
-package bai11_dsa_stack_queue.bai_tap_11.thap_phan_sang_nhi_phan;
+package bai11_dsa_stack_queue.bai_tap.thap_phan_sang_nhi_phan;
 
 import java.util.Stack;
 

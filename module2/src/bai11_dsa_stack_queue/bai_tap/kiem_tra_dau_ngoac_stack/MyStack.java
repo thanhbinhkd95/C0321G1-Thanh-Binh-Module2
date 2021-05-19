@@ -1,4 +1,4 @@
-package bai11_dsa_stack_queue.bai_tap_11.kiem_tra_dau_ngoac_stack;
+package bai11_dsa_stack_queue.bai_tap.kiem_tra_dau_ngoac_stack;
 
 import java.util.Stack;
 

@@ -1,4 +1,4 @@
-package bai11_dsa_stack_queue.bai_tap_11.dao_nguoc_phan_tu_stack;
+package bai11_dsa_stack_queue.bai_tap.dao_nguoc_phan_tu_stack;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -7,7 +7,7 @@ import java.util.Stack;
 public class MyListStack {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Nhập số lượng phần tử mảng:");
+        System.out.println("Nhập mảng:");
         int n = scanner.nextInt();
         int[] array = new int[n];
         for (int i = 0; i < n; i++) {
@@ -16,8 +16,8 @@ public class MyListStack {
         }
         System.out.println("Trước khi đảo mảng: "+ Arrays.toString(array));
         System.out.println("Sau khi đảo mảng: "+ Arrays.toString(MyListStack.reverseArray(array)));
-        String string = "huynh phuoc hau";
-        System.out.println("Sau khi đảo chuỗi: "+ MyListStack.reverseString(string));
+        String string = "Mr Chanh Tivi";
+        System.out.println("Sau khi đảo: "+ MyListStack.reverseString(string));
     }
     public static int[] reverseArray(int[] array) {
         Stack<Integer> stack = new Stack<>();

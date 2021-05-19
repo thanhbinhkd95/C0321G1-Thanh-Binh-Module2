@@ -1,7 +1,6 @@
-package bai11_dsa_stack_queue.bai_tap_11.kiem_tra_palindrome_stack_queue;
+package bai11_dsa_stack_queue.bai_tap.kiem_tra_palindrome_stack_queue;
 
 import java.util.LinkedList;
-import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.Stack;
 
