@@ -1,4 +1,4 @@
-package bai_16_io_text_file.thuc_hanh;
+package bai_16_io_text_file.bai_tap;
 
 import java.io.BufferedReader;
 import java.io.File;
